@@ -1,3 +1,9 @@
+## v0.4.1
+
+### `async` right prompt rendering.
+
+The right prompt is now render asynchronously.
+
 ## v0.4.0
 
 ### Development changes
