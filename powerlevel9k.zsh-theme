@@ -87,6 +87,16 @@ source $script_location/functions/colors.zsh
 source $script_location/functions/vcs.zsh
 
 ################################################################
+# Source zsh-async
+################################################################
+
+source $script_location/zsh-async/async.zsh
+
+async_init
+
+async_start_worker p9k_$$
+
+################################################################
 # Color Scheme
 ################################################################
 
